@@ -12,10 +12,10 @@ public class Testing {
 	    driver.get("https://www.facebook.com");
 	    Thread.sleep(5000);  // Let the user actually see something!
 	    WebElement email = driver.findElement(By.id("email"));
-	    email.sendKeys("maxbleed");
+	    email.sendKeys("email");
 	    
 	    WebElement pass = driver.findElement(By.id("pass"));
-	    pass.sendKeys("pirate");
+	    pass.sendKeys("password");
 	    
 	    pass.submit();
 		/* searchBox.submit(); */
